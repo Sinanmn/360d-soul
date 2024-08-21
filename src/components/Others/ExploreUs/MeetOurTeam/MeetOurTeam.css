@@ -1,0 +1,93 @@
+.meetourteam_container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 140px;
+  }
+  .meetourteam_container h1 {
+    color: var(--color-violet);
+    font-size: 50px;
+    text-align: center;
+    margin: 0 100px;
+    line-height: 1.5;
+  }
+  .chobi-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .chobi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+  }
+  .chobi img {
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .chobi img:hover {
+    transform: rotate(3deg);
+  }
+  .chobi h3 {
+    font-size: 25px;
+    margin-top: 3px;
+  }
+  .chobi p {
+    color: #7a7a7a;
+  }
+  
+  .meetourteam_container Button:hover {
+    background-color: var(--color-green);
+  }
+  
+  /* ----------------For Mobile Devices ---------------- */
+  
+  @media (max-width: 600px) {
+    .meetourteam_container {
+      height: auto;
+      padding: 70px 40px !important;
+      gap: 30px;
+    }
+    .meetourteam_container h1 {
+      font-size: 25px;
+      
+      margin: 0;
+  
+      
+    }
+    .chobi-container {
+      
+      flex-direction: column;
+    }
+    .chobi {
+      flex-direction: column;
+      width: 90%;
+    }
+    .chobi img {
+      width: 70%;
+      transition: all 0.3s ease;
+    }
+    .chobi img:hover {
+      transform: rotate(3deg);
+    }
+    .chobi h3 {
+      font-size: 25px;
+      margin-top: 3px;
+    }
+    .chobi p {
+      color: #7a7a7a;
+    }
+  
+    .meetourteam_container Button:hover {
+      background-color: var(--color-green);
+    }
+  }
+  

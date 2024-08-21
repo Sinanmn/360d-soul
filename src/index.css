@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layer::before {
+  content: "";
+  background: linear-gradient(to right, #000F1A 0%, #000F1A 50%, #0077D5 100%);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+:root {
+  --color-violet: #5D2F6D;
+  --color-orange: #F1705A;
+  --color-green: #389AB3;
+}
