@@ -7,6 +7,7 @@ import ITStrategy from "../components/Others/Solutions/IT/ITStrategy";
 import HRStrategy from "../components/Others/Solutions/HR/HRStrategy";
 import ContactUs from "../components/Others/ContactUs/ContactUs";
 import Career from "../components/Others/Career/Career";
+import Blogs from "../components/Others/Blogs/Blogs";
 
 
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/career",
         element: <Career/>
+      },
+      {
+        path: "/blogs",
+        element: <Blogs></Blogs>
       },
    
     ],
